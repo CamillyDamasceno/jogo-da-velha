@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-azul-marinho:#311d47;
+    --cor-rosa:#ed3270;
+    --cor-rosa-escuro:#c9285e;
+    --cor-input:#3c2457;
+    --cor-borda-input:#50366e;
+    --cor-botao-jogo:#392352;
+    --cor-botao-jogo-ativado:#523573;
+}
+
+body{
+    background-color: var(--cor-azul-marinho);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Belanosima", sans-serif;
+}
+
+main h1{
+    color: var(--cor-rosa);
+    font-weight: 600;
+    text-align: center;
+    font-size: 36px;
+}
+
+main h3{
+    font-weight: 400;
+    text-align: center;
+}
+
+main a{
+    margin: auto;
+}
+
+main button {
+  width: 250px;
+  padding: 10px 15px;
+  border: none;
+  background-color: var(--cor-rosa);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Belanosima", sans-serif;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+main button:hover{
+    background-color: var(--cor-rosa-escuro);
+}
+
+main input {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--cor-input);
+  border: 1px solid var(--cor-borda-input);
+  margin-left: 10px;
+  color: white;
+}
+
+main input:focus{
+    outline: none;
+    border-color: var(--cor-rosa);
+}
+
+main label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+
+/* PÁGINA DO JOGO */

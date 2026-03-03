@@ -1,0 +1,21 @@
+main section {
+  justify-content: center;
+  align-items: center;
+}
+
+.container-botoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-botoes button {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  background-color: var(--cor-botao-jogo);
+  border: 2px solid var(--cor-botao-jogo-ativado);
+}
+
+.container-botoes button:hover{
+    background-color: var(--cor-botao-jogo-ativado);
+}
